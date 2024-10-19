@@ -75,8 +75,9 @@ class Mission:
 
     @classmethod
     def from_csv(cls, file_name: str):
-        # You are required to implement this method
-        pass
+        f = open(file_name, "r")
+        return f.read()
+        
 
 
 class ClosedLoop:
