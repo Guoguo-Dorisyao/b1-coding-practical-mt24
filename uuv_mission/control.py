@@ -1,5 +1,5 @@
 class PDController:
-    def __init__(self, KP: float = 0.15, KD: float = 0.5):
+    def __init__(self, KP: float = 0.15, KD: float = 0.6):
         self.KP = KP
         self.KD = KD
         self.previous_error = 0.0
